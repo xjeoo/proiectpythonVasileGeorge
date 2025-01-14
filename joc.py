@@ -861,3 +861,4 @@ while running:
     pygame.display.update()
 
 pygame.quit()
+pygame.mixer.quit()
