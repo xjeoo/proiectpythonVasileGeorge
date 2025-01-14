@@ -430,7 +430,7 @@ class Water(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         self.image = image
         self.rect = self.image.get_rect()
-        self.rect.midtop = (x + TILE_SIZE//2, y + (TILE_SIZE - self.image.get_height()))
+        self.rect.midtop = (x + TILE_SIZE//2, y + (TILE_SIZE - self.image.get_height()*0.8))
     
     def update(self):
         if player.alive:
@@ -690,12 +690,12 @@ world = World()
 player, healthbar = world.processData(world_data)
 
 running = True
-
+drawBG()
 while running:
     clock.tick(FPS)
 
     if(start_game == False): #main menu
-        window.fill(BG)
+        # window.fill(BG)
         if start_button.draw(window):
             start_game = True
             start_intro = True
