@@ -1,0 +1,34 @@
+Cerinte pentru rulare:
+	Cerinte pentru rulare:
+	-Creare mediu virtual:
+
+	-Se ruleaza in terminal din fiserul sursa:
+
+		python -m venv venv
+	-Se activeaza mediul virtual:
+
+		.\venv\Scripts\activate
+
+	-Instalare pygame 2.6.1 sau mai nou:
+
+		pip install pygame==2.6.1
+
+	-Rulare joc.py aflat in fisierul radacina:
+		python joc.py
+
+Controale :
+	
+	W - salt
+	A - deplasare stanga
+	D - deplasare dreapta
+	SPACE - trage
+	LCTRL - arunca grenada
+	ESCAPE - pornire meniu
+
+Referinte:
+https://www.youtube.com/watch?v=DHgj5jhMJKg&list=PLjcN1EyupaQm20hlUE11y9y8EY2aXLpnv
+https://www.pygame.org/docs/
+https://github.com/russs123/Shooter
+https://github.com/russs123/LevelEditor
+
+
