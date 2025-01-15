@@ -1,7 +1,8 @@
-# Cerinte pentru rulare:
+# Cerinte pentru rulare:     
+**Este nevoie de o versiune de python 3.10.x sau mai noua.**
         
   **-Creare mediu virtual:**
-Este nevoie de o versiune de python 3.10.x sau mai noua.
+  
   
   Se ruleaza in terminal din fiserul sursa:
 	
